@@ -1,0 +1,90 @@
+body{
+    background-color:#735DA5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.main{
+    background-color:#735DA5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 595px;
+}
+.calc-body{
+    background-color:#D3C5E5;
+    width: 400px;
+    height: 450px;
+    border-radius: 50px;
+    border: 10px solid black;
+
+}
+.calc{
+    margin-left: 45px;
+    width: 300px;
+    margin-top: 20px;
+    height: 100px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: 5px solid black;
+    font-size: 24px;
+}
+.calc-button{
+    width: 400px;
+    height: 100px;
+}
+.b{
+    width: 75px;
+    height: 50px;
+    margin-left: 17px;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: 600;
+    border: 2px solid black;
+    background-color: bisque;
+}
+.b:hover{
+    background-color: burlywood;
+    color: brown;
+}
+.d1{
+    margin-left: 70px;
+}
+.d2{
+    margin-left: 20px;
+}
+.d{
+                /* margin-left: 80px; */
+    width: 75px;
+    height: 50px;
+    font-size: larger;
+    font-weight: 600;
+    border: 2px solid black;
+    background-color: bisque;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.d:hover{
+    background-color: burlywood;
+    color: brown;
+}
+.e{
+    margin-left: 17px;
+    width: 75px;
+    height: 50px;
+    font-size: larger;
+    font-weight: 600;
+    border: 2px solid black;
+    background-color: bisque;
+    margin-top: 10px;
+    background-color: rgb(207, 144, 49);
+    color: rgba(98, 3, 3, 0.833);
+    border-radius: 20px;
+}
+.e:hover{
+    background-color: chocolate;
+    color: burlywood;
+}

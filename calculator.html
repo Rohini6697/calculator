@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./calculator.css">
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="calc-body">
+                    <input class="calc" id="calc" type="text"><br>
+                        <div class="calc-button">
+                            <button class="e" onclick="clr()">C</button>
+                            <button class="e" onclick="dlt()">Dlt</button>
+                            <button class="e" onclick="calculate()">=</button>
+                            <button class="e" onclick="arrange('/')">/</button><br>
+
+                            <button class="b" onclick="arrange('7')">7</button>
+                            <button class="b" onclick="arrange('8')">8</button>
+                            <button class="b" onclick="arrange('9')">9</button>
+                            <button class="e" onclick="arrange('*')">*</button><br>
+
+                            <button class="b" onclick="arrange('4')">4</button>
+                            <button class="b" onclick="arrange('5')">5</button>
+                            <button class="b" onclick="arrange('6')">6</button>
+                            <button class="e" onclick="arrange('-')">-</button><br>
+
+                            <button class="b" onclick="arrange('1')">1</button>
+                            <button class="b" onclick="arrange('2')">2</button>
+                            <button class="b" onclick="arrange('3')">3</button>
+                            <button class="e" onclick="arrange('+')">+</button><br>
+
+                            <button class="d d1" onclick="arrange('0')">0</button>
+                            <button class="d d2" onclick="arrange('.')">.</button>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <script src="./calculator.js"></script>
+
+    </body>
+</html>
